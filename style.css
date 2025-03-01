@@ -15,5 +15,14 @@ body{
     aligin-items: center;
     background: linear-gradient(320deg, #eb92be, #ffef78, #63c94b);
     display: flex;
-    font-family: ;
+    font-family: 'Dosis', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
 }
