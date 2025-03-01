@@ -50,3 +50,18 @@ function handleMath(symbol){
     }
 }
 const intBuffer = parseInt(buffer);
+
+if(runningTotal === 0){
+    runningTotal = intBuffer;
+}else{
+    flushOperation(intBuffer);
+
+    previousOperator = symbol;
+    buffer = '0';
+}
+
+function flushOperation(intBuffer){
+    if(previousOperator === '+'){
+   runningTotal += intBuffer;
+    }else if(previousOperator ===
+}
